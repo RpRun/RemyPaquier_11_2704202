@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer/Footer";
 import Menu from "../../components/Menu/Menu";
 import Title from "../../components/Title/Title";
 import "./Contact.css";
@@ -7,6 +8,7 @@ const Contact = () => {
     <div id="contact">
       <Title text="Contact Page" />
       <Menu />
+      <Footer />
     </div>
   );
 };
