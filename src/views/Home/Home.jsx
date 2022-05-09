@@ -1,7 +1,7 @@
 import Footer from "../../components/Footer/Footer";
 import Menu from "../../components/Menu/Menu";
 import Title from "../../components/Title/Title";
-import "./Home.css";
+import "./Home.scss";
 
 const Home = () => {
   return (

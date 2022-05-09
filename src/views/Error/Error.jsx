@@ -1,5 +1,5 @@
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
-import "./Error.css";
+import "./Error.scss";
 
 const Error = () => {
   return (
