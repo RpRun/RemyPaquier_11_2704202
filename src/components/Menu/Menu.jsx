@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import "./Menu.scss";
 const Menu = () => {
   return (
     <nav className="menu">
