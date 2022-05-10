@@ -1,11 +1,28 @@
+@use '../../scss/shared/variables'as *;
+
 .menu ul {
     display: flex;
-    height: 40px;
-    background-color: antiquewhite;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .menu li {
     padding: 10px;
-    background-color: aquamarine;
+}
 
+.menu a {
+    font-family: $font;
+    color: $red;
+    text-decoration: none;
+
+    &:visited {
+        text-decoration: underline;
+        //dt work
+    }
+}
+
+@media (max-width:768px) {
+    .menu a {
+        text-transform: uppercase;
+    }
 }

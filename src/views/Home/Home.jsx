@@ -1,13 +1,12 @@
 import Footer from "../../components/Footer/Footer";
-import Menu from "../../components/Menu/Menu";
-import Title from "../../components/Title/Title";
+import Header from "../../components/Header/Header";
+
 import "./Home.scss";
 
 const Home = () => {
   return (
     <div id="home">
-      <Title text="Home Page" />
-      <Menu />
+      <Header />
       <Footer />
     </div>
   );

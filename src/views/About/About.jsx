@@ -1,16 +1,15 @@
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
-import MainError from "../../components/Main/MainError";
-import "./Error.scss";
 
-const Error = () => {
+import "./About.scss";
+
+const About = () => {
   return (
-    <div id="error">
+    <div id="About">
       <Header />
-      <MainError />
       <Footer />
     </div>
   );
 };
 
-export default Error;
+export default About;

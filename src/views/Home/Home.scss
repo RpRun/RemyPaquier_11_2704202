@@ -1,7 +1,7 @@
-@use '../../../src/scss/shared/_colors.scss'as *;
+@use '../../../src/scss/shared/_variables.scss'as *;
 
 
 #home {
-    background-color: $red;
+
     min-height: 100vh;
 }

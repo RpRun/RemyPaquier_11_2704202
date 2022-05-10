@@ -1,10 +1,21 @@
-@use '../../scss/shared/colors'as *;
+@use '../../scss/shared/variables'as *;
 
 .footer {
     position: absolute;
     width: 100%;
     bottom: 0;
-    height: 2.5rem;
+    height: 5rem;
     text-align: center;
-    background-color: lighten($color: $red, $amount: 10);
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    color: $white;
+    background-color: $black;
+}
+
+.footer p {
+    margin-top: 1.5rem;
+}
+
+svg {
+    fill: $white;
 }

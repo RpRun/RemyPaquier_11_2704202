@@ -1,0 +1,17 @@
+@use '../../scss/shared/variables'as *;
+
+
+.main {
+    color: $red;
+    font: $font;
+}
+
+.main p {
+    margin-top: 1rem;
+}
+
+.main a {
+    display: inline-block;
+    margin-top: 10rem;
+    color: $red;
+}
