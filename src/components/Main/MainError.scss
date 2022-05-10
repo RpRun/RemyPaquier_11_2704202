@@ -1,16 +1,16 @@
 @use '../../scss/shared/variables'as *;
 
 
-.main {
+.mainError {
     color: $red;
     font: $font;
 }
 
-.main p {
+.mainError p {
     margin-top: 1rem;
 }
 
-.main a {
+.mainError a {
     display: inline-block;
     margin-top: 10rem;
     color: $red;
