@@ -1,0 +1,14 @@
+.mainError {
+  color: #FF6060;
+  font: Montserrat;
+}
+
+.mainError p {
+  margin-top: 1rem;
+}
+
+.mainError a {
+  display: inline-block;
+  margin-top: 10rem;
+  color: #FF6060;
+}/*# sourceMappingURL=MainError.css.map */
