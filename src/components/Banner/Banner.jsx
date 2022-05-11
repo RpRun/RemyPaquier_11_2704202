@@ -1,13 +1,8 @@
 import React from "react";
-import gustavo from "../../assets/gustavo.png";
 import "./Banner.scss";
 
 const Banner = () => {
-  return (
-    <div className="wrap-banner">
-      <img src={gustavo} alt="" />
-    </div>
-  );
+  return <div className="imgBackground"></div>;
 };
 
 export default Banner;

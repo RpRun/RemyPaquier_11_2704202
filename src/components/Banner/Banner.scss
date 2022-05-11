@@ -1,10 +1,15 @@
-.wrap-banner {
-
+.imgBackground {
+    height: 223px;
+    background-image: url("../../assets/desktopBanner.png");
+    background-repeat: no-repeat;
+    // background-size: 100%;
     margin: 1em 1em;
+    border-radius: 10px;
 }
 
-.wrap-banner img {
-    width: 100%;
-    object-fit: contain;
-    border-radius: 10px;
+@media (max-width:768px) {
+    .imgBackground {
+        background-image: url("../../assets/mobileBanner.png");
+        background-size: 100%;
+    }
 }

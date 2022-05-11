@@ -1,19 +1,19 @@
-// import "../../assets/IMG.png";
-
 import Banner from "../Banner/Banner";
+import DropDown from "../DropDown/DropDown";
+import "./MainAbout.scss";
 
 const MainAbout = () => {
   return (
     <main className="mainAbout">
       <Banner />
-
       <ul>
-        <li className="card">couc</li>
-        <li>
-          <img src="" alt="" />
-        </li>
-        <li></li>
-        <li></li>
+        <DropDown text="Fiabilité" />
+
+        <DropDown text="Respect" />
+
+        <DropDown text="Service" />
+
+        <DropDown text="Responsabilité" />
       </ul>
     </main>
   );
