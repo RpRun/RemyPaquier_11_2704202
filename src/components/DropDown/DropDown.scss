@@ -1,6 +1,6 @@
 @use '../../scss/shared/variables'as *;
 
-.closedBox {
+.textBox {
     background-color: $red;
     color: $white;
     text-align: left;
@@ -10,8 +10,42 @@
     position: relative;
 }
 
-.closedBox svg {
+.textBox button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
     position: absolute;
-    right: 20px;
-    top: 10px;
+    right: 4px;
+    top: 4px;
+    border-radius: 10px;
+    background-color: initial;
+    cursor: pointer;
+
+}
+
+.arrow {
+    transform: rotateX(0);
+    padding: 0 10px;
+    transition: 0.3s;
+    width: 50%;
+    height: 50%;
+}
+
+.arrow .reverse {
+    transform: rotateX(180deg);
+}
+
+// a deplacer dans shared variables, mixins?
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    /* added line */
+    border: 0;
 }
