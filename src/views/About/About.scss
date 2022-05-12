@@ -1,4 +1,3 @@
-// @use '../../../src/scss/shared/_variables.scss'as *;
 @use '../../scss/shared/variables'as *;
 
 #About {
@@ -7,8 +6,13 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    justify-content: space-between;
     position: relative;
     font-family: $font;
+}
 
+@media (max-width:768px) {
+    #About {
+        min-height: 130vh;
+
+    }
 }
