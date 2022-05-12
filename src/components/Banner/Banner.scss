@@ -1,4 +1,4 @@
-.imgBackground img {
+.bannerBg img {
     height: 223px;
     // background-image: url("../../assets/desktopBanner.png");
     // background-repeat: no-repeat;
@@ -8,13 +8,13 @@
     object-fit: cover;
 }
 
-.imgBackground {
+.bannerBg {
     margin: 1em 1em;
     border-radius: 10px;
 }
 
 @media (max-width:768px) {
-    .imgBackground img {
+    .bannerBg img {
         background-image: url("../../assets/mobileBanner.png");
         background-size: 100%;
     }

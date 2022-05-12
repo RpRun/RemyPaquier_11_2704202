@@ -1,0 +1,21 @@
+.kasa-LodgeList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+
+}
+
+// .kasa-LodgeList>* {
+//     flex: 1 1 240px;
+// }
+
+
+
+.lodgeItemBg {
+    background-color: aqua;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
