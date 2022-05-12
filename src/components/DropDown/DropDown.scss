@@ -7,10 +7,33 @@
     margin: 1rem;
     padding: 10px;
     border-radius: 10px;
+    // position: relative;
+}
+
+.dropBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $red;
+    color: $white;
+    // text-align: left;
+    padding: 10px;
+    border-radius: 10px;
     position: relative;
 }
 
-.textBox button {
+.titleBox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: $white;
+    text-align: left;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.dropBox button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,6 +55,7 @@
     height: 50%;
 }
 
+// rotation ne fonctionne pas
 .arrow .reverse {
     transform: rotateX(180deg);
 }

@@ -1,9 +1,9 @@
-@use '../../scss/shared/variables'as *;
+@use '../../../scss/shared/variables'as *;
 
 
 .mainError {
     color: $red;
-    font: $font;
+    font-family: $font;
 }
 
 .mainError p {
@@ -14,4 +14,5 @@
     display: inline-block;
     margin-top: 10rem;
     color: $red;
+    cursor: pointer;
 }

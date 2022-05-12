@@ -1,0 +1,11 @@
+@use '../../../scss/shared/variables'as *;
+
+
+.DropDownText {
+    background-color: $grey;
+    border-radius: 0px 0px 5px 5px;
+    padding: 25px 10px 5px 10px;
+    margin-top: -7px;
+    color: $red;
+
+}

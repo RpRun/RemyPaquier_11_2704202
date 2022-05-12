@@ -1,6 +1,6 @@
 import React from "react";
-import BackHome from "../BackHome/BackHome";
-import ErrorMessage from "../ErrorMessage/ErrorMessage";
+import BackHome from "../../BackHome/BackHome";
+import ErrorMessage from "../../ErrorMessage/ErrorMessage";
 import "./MainError.scss";
 const MainError = () => {
   return (

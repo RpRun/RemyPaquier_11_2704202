@@ -15,9 +15,10 @@
     color: $red;
     text-decoration: none;
 
-    &:visited {
+    // visited?
+    &:active {
         text-decoration: underline;
-        //dt work
+
     }
 }
 
