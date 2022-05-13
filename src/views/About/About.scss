@@ -10,6 +10,13 @@
     font-family: $font;
 }
 
+#About .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 @media (max-width:768px) {
     #About {
         min-height: 130vh;

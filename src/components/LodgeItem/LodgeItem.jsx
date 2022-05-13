@@ -17,7 +17,12 @@ const LodgeItem = ({
   equipments,
   tags,
 }) => {
-  return <div className="lodgeItem">{title}</div>;
+  return (
+    <>
+      <div className="lodgeImg"></div>
+      <div className="lodgeTitle">{title}</div>
+    </>
+  );
 };
 
 export default LodgeItem;

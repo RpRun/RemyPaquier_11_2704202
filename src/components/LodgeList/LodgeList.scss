@@ -1,3 +1,5 @@
+@use '../../scss/shared/variables'as *;
+
 .kasa-LodgeList {
     display: flex;
     flex-wrap: wrap;
@@ -13,9 +15,10 @@
 
 
 .lodgeItemBg {
-    background-color: aqua;
+    background: #FF6060;
+    border-radius: 10px;
     margin: 10px;
-    width: 300px;
-    height: 200px;
+    width: 340px;
+    height: 340px;
     position: relative;
 }
