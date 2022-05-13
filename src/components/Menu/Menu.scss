@@ -8,18 +8,16 @@
 
 .menu li {
     padding: 10px;
+
+    &.underline {
+        text-decoration-line: underline;
+    }
 }
 
 .menu a {
     font-family: $font;
     color: $red;
     text-decoration: none;
-
-    // visited?
-    &:active {
-        text-decoration: underline;
-
-    }
 }
 
 @media (max-width:768px) {

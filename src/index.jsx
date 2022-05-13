@@ -4,6 +4,7 @@ import "./styles/reset.scss";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import "./styles/main.scss";
+import "@fontsource/montserrat";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
