@@ -1,15 +1,9 @@
-@use '../styles/variables.scss'as *;
-// @forward '../scss/shared/colors';
-@import url('./reset.scss');
+@use '../../styles/variables.scss'as *;
 
-
-a {
-    cursor: pointer;
-}
-
-#root {
+#Lodge {
     min-height: 100vh;
     max-width: 1229px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -18,8 +12,10 @@ a {
 }
 
 @media (max-width:768px) {
-    #root {
+    #Lodge {
         min-height: 130vh;
 
     }
 }
+
+//repetition entre pages voir mixins sass

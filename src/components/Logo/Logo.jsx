@@ -1,8 +1,9 @@
 import React from "react";
+import "./Logo.scss";
 
 const Logo = () => {
   return (
-    <div>
+    <div className="logo">
       <svg
         width="145"
         height="47"

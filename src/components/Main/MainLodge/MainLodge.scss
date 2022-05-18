@@ -1,0 +1,15 @@
+.mainLodge {
+    display: flex;
+    flex-direction: column;
+}
+
+.LodgesDropDowns ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 70%;
+}
+
+.LodgesDropDowns .titleBox {
+    width: 45%;
+}
