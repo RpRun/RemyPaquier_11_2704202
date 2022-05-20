@@ -1,6 +1,6 @@
-import "./Lodge.scss";
+import "./LodgeListItem.scss";
 
-const Lodge = ({
+const LodgeListItem = ({
   title,
   cover,
   pictures,
@@ -13,12 +13,12 @@ const Lodge = ({
 }) => {
   return (
     <>
-      <div className="lodgeImgBg">
+      <div className="lodgeListItemBg">
         <img src={cover} alt={tags} />
       </div>
-      <div className="lodgeTitle">{title}</div>
+      <div className="lodgeListItemTitle">{title}</div>
     </>
   );
 };
 
-export default Lodge;
+export default LodgeListItem;

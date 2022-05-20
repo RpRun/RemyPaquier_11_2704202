@@ -1,7 +1,8 @@
 import { LodgeListData } from "../../datas/data";
-import Lodge from "../Lodge/Lodge";
+
 import { Link } from "react-router-dom";
 import "./LodgeList.scss";
+import LodgeListItem from "../LodgeListItem/LodgeListItem";
 const LodgeList = () => {
   return (
     <ul className="kasa-LodgeList">
@@ -20,7 +21,7 @@ const LodgeList = () => {
         }) => (
           <li className="lodgeItemBg">
             <Link to={`${id}`}>
-              <Lodge
+              <LodgeListItem
                 key={id}
                 title={title}
                 cover={cover}

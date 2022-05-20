@@ -1,6 +1,6 @@
 import "./ImageSlider.scss";
 import { useState } from "react";
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import { IoChevronBackSharp, IoChevronForwardSharp } from "react-icons/io5";
 
 const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -20,8 +20,8 @@ const ImageSlider = ({ slides }) => {
 
   return (
     <section className="slider">
-      <FaArrowLeft className="left-arrow" onClick={prevSlide} />
-      <FaArrowRight className="right-arrow" onClick={nextSlide} />
+      <IoChevronBackSharp className="left-arrow" onClick={prevSlide} />
+      <IoChevronForwardSharp className="right-arrow" onClick={nextSlide} />
       {slides.map((slide, index) => {
         return (
           <div

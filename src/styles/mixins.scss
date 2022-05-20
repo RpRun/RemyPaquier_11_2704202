@@ -1,0 +1,7 @@
+@use '../styles/variables.scss'as *;
+
+@mixin text-style($color: $red) {
+    font-family: $font;
+    color: $color;
+    font-size: 18px;
+}

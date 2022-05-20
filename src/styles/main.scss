@@ -3,23 +3,23 @@
 @import url('./reset.scss');
 
 
-a {
-    cursor: pointer;
-}
+// a {
+//     cursor: pointer;
+// }
 
-#root {
-    min-height: 100vh;
-    max-width: 1229px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    position: relative;
-    font-family: $font;
-}
+// #root {
+//     min-height: 100vh;
+//     max-width: 1229px;
+//     display: flex;
+//     flex-direction: column;
+//     margin: 0 auto;
+//     position: relative;
 
-@media (max-width:768px) {
-    #root {
-        min-height: 130vh;
+// }
 
-    }
-}
+// @media (max-width:768px) {
+//     #root {
+//         min-height: 130vh;
+
+//     }
+// }

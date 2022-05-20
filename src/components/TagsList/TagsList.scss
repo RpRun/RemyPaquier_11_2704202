@@ -1,7 +1,10 @@
 @use '../../styles/variables.scss'as *;
+@use '../../styles/mixins.scss'as *;
 
 .tagsList {
     display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
 
     & li {
@@ -14,9 +17,8 @@
         width: 140px;
         height: 25px;
         margin-right: 10px;
-        color: $white;
+        @include text-style($color: $white);
         font-size: 14px;
-        font-family: $font;
 
     }
 }

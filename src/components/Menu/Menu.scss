@@ -1,4 +1,6 @@
 @use '../../styles/variables.scss'as *;
+@use '../../styles/mixins.scss'as*;
+
 
 .menu ul {
     display: flex;
@@ -15,8 +17,7 @@
 }
 
 .menu a {
-    font-family: $font;
-    color: $red;
+    @include text-style;
     text-decoration: none;
 }
 

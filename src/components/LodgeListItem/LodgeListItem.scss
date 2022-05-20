@@ -1,6 +1,6 @@
 @use '../../styles/variables.scss'as *;
 
-.lodgeTitle {
+.lodgeListItemTitle {
     position: absolute;
     top: 80%;
     padding: 20px;
@@ -8,7 +8,7 @@
 
 }
 
-.lodgeImgBg {
+.lodgeListItemBg {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
     border-radius: 10px;
     width: auto;

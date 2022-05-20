@@ -4,8 +4,10 @@ import ImageSlider from "../../ImageSlider/ImageSlider";
 import DropDown from "../../DropDown/DropDown";
 
 import "./MainLodge.scss";
-import Title from "../../Title/Title";
+
 import TagsList from "../../TagsList/TagsList";
+import LodgePageTitle from "../../LodgePageTitle/LodgePageTitle";
+import HostInfos from "../../HostInfos/HostInfos";
 
 const MainLodge = () => {
   const { id } = useParams();
@@ -16,10 +18,17 @@ const MainLodge = () => {
     <main className="mainLodge">
       <>
         <ImageSlider slides={lodge.pictures} />
-        <Title title={lodge.title} text={lodge.location} />
-        <TagsList tags={lodge.tags} />
-        <img src={lodge.host.picture} alt="pouet" />
-        <p>{lodge.rating}</p>
+        <section className="mainInformation">
+          <div className="lodgeInfos">
+            <LodgePageTitle title={lodge.title} text={lodge.location} />
+            <TagsList tags={lodge.tags} />
+          </div>
+          <HostInfos
+            hostName={lodge.host.name}
+            picture={lodge.host.picture}
+            rate={lodge.rating}
+          />
+        </section>
 
         <section className="LodgesDropDowns">
           <ul>
@@ -28,8 +37,6 @@ const MainLodge = () => {
             <DropDown title="Equipements" text={lodge.equipments} />
           </ul>
         </section>
-
-        <p>{lodge.host.name}</p>
       </>
     </main>
   );
