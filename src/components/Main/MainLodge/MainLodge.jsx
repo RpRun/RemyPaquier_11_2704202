@@ -13,7 +13,6 @@ const MainLodge = () => {
   const { id } = useParams();
 
   const lodge = LodgeListData.find((Lodge) => Lodge.id === id);
-  console.log(lodge.equipments);
   // const lodgeEquipments = lodge.equipments.split(" ");
 
   // let lodgeList = "<ul>";

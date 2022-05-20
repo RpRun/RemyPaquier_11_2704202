@@ -8,6 +8,10 @@
     color: $white;
     background-color: $black;
 
+    & svg {
+        fill: $white;
+    }
+
 }
 
 .footer p {

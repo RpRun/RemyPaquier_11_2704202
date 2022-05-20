@@ -1,5 +1,6 @@
 @use '../../styles/variables.scss'as *;
 
 .logo svg {
-    fill: $white;
+    // fill: $white;
+    cursor: pointer;
 }

@@ -1,12 +1,12 @@
 import React from "react";
 import Menu from "../Menu/Menu";
 import "./Header.scss";
-import { ReactComponent as Logo } from "../../assets/LOGO.svg";
+import Logo from "../Logo/Logo";
 
 const Header = () => {
   return (
     <header className="header">
-      <Logo fill="current" />
+      <Logo />
       <Menu />
     </header>
   );
