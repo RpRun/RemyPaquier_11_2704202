@@ -1,9 +1,9 @@
 @use '../../styles/variables.scss'as *;
 
 .slider {
-    position: relative;
     margin: auto;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     height: 300px;
     border-radius: 10px;
@@ -19,7 +19,6 @@
 
 .right-arrow {
     position: absolute;
-    top: 50%;
     right: 32px;
     font-size: 5rem;
     color: $white;
@@ -30,7 +29,6 @@
 
 .left-arrow {
     position: absolute;
-    top: 50%;
     left: 32px;
     font-size: 5rem;
     color: $white;
