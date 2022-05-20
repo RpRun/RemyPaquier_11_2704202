@@ -2,6 +2,7 @@ import "./DropDown.scss";
 import { useState } from "react";
 import React from "react";
 import DropDownMessage from "./DropDownMessage/DropDownMessage";
+import DropDownList from "./DropDownList/DropDownList";
 // import { useEffect } from 'react'
 
 const DropDown = ({ title, text }) => {
@@ -30,7 +31,12 @@ const DropDown = ({ title, text }) => {
           </svg>
         </button>
       </div>
-      {isOpen && <DropDownMessage text={text} />}
+      {isOpen &&
+        (typeof text == "string" ? (
+          <DropDownMessage text={text} />
+        ) : (
+          <DropDownList text={text} />
+        ))}
     </li>
   );
 };
