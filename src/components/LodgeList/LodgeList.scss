@@ -3,10 +3,10 @@
 .kasa-LodgeList {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
-    justify-content: center;
+    margin: 2rem auto;
+    padding: 3rem 1rem;
+    justify-content: space-around;
     background-color: $grey;
-    padding: 5rem 1rem;
     border-radius: 25px;
 
 }

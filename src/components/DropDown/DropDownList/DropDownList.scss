@@ -9,6 +9,7 @@
     color: $red;
     display: flex;
     flex-direction: column;
+    min-width: 200px;
     & li {
         padding: 3px;
         margin-left: 10px;

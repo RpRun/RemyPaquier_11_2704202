@@ -10,7 +10,6 @@
     align-items: center;
     align-content: center;
     margin-top: 40px;
-    padding: 10px;
 }
 
 .LodgesDropDowns ul {
@@ -24,4 +23,6 @@
 
 .LodgesDropDowns .titleBox {
     width: 45%;
+    min-width: 180px;
+    margin-top: 0px;
 }

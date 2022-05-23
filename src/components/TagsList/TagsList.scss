@@ -3,6 +3,7 @@
 
 .tagsList {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 1rem;
     padding-bottom: 1rem;
 
@@ -19,6 +20,16 @@
         margin-right: 10px;
         @include text-style($color: $white);
         font-size: 14px;
+        padding: 2px;
 
+    }
+}
+
+@media (max-width:768px) {
+    .tagsList {
+       justify-content: center;
+       & li{
+           margin-top: 10px;
+       }
     }
 }

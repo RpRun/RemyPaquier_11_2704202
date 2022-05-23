@@ -2,6 +2,9 @@
 // @forward '../scss/shared/colors';
 @import url('./reset.scss');
 
+#root {
+    margin: 0.5rem;
+}
 
 // a {
 //     cursor: pointer;
