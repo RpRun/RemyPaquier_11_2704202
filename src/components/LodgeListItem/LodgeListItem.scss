@@ -1,16 +1,25 @@
 @use '../../styles/variables.scss'as *;
 
+
+.lodgeListItem {
+    background: $red;
+    border-radius: 25px;
+    margin: 10px;
+    width: 340px;
+    height: 340px;
+    position: relative; 
+}
+
 .lodgeListItemTitle {
     position: absolute;
     top: 80%;
     padding: 20px;
     color: $white;
-
 }
 
 .lodgeListItemBg {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-    border-radius: 10px;
+    background: linear-gradient(180deg, #FF6060 100%, #000000 0%);
+    border-radius: 25px;
     width: auto;
     height: 340px;
 
@@ -18,7 +27,7 @@
         object-fit: cover;
         width: auto;
         height: 272px;
-        border-radius: 10px 10px 0px 0px;
+        border-radius: 25px 25px 0px 0px;
     }
 
 }

@@ -5,20 +5,8 @@
     flex-wrap: wrap;
     margin: auto;
     justify-content: center;
+    background-color: $grey;
+    padding: 5rem 1rem;
+    border-radius: 25px;
 
-}
-
-// .kasa-LodgeList>* {
-//     flex: 1 1 240px;
-// }
-
-
-
-.lodgeItemBg {
-    background: #FF6060;
-    border-radius: 10px;
-    margin: 10px;
-    width: 340px;
-    height: 340px;
-    position: relative;
 }

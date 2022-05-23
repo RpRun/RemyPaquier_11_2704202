@@ -15,10 +15,11 @@
 
 .LodgesDropDowns ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: flex-start;
-    min-width: 70%;
+   width: 100%;
+   padding: 25px 0px;
 }
 
 .LodgesDropDowns .titleBox {

@@ -19,7 +19,7 @@ const LodgeList = () => {
           equipments,
           tags,
         }) => (
-          <li className="lodgeItemBg">
+          <li className="lodgeListItem">
             <Link to={`${id}`}>
               <LodgeListItem
                 key={id}
