@@ -1,21 +1,15 @@
 .bannerBg img {
     height: 223px;
-    // background-image: url("../../assets/desktopBanner.png");
-    // background-repeat: no-repeat;
-    // background-size: 100%;
-    // margin: auto;
     border-radius: 10px;
     object-fit: cover;
+    opacity: 0.8;
 }
 
 .bannerBg {
+    height: 223px;
     margin: 1em auto;
     border-radius: 10px;
+    position: relative;
+    background-color: black;
 }
 
-@media (max-width:768px) {
-    .bannerBg img {
-        background-image: url("../../assets/mobileBanner.png");
-        background-size: 100%;
-    }
-}

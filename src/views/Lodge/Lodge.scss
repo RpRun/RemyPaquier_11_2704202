@@ -12,11 +12,3 @@
     @include text-style;
 }
 
-@media (max-width:768px) {
-    #Lodge {
-        min-height: 130vh;
-
-    }
-}
-
-//repetition entre pages voir mixins sass

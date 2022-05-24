@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.mainInformation {
+.practicalInformation {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -12,7 +12,7 @@
     margin-top: 40px;
 }
 
-.LodgesDropDowns ul {
+.lodgeDropDowns ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -21,8 +21,23 @@
    padding: 25px 0px;
 }
 
-.LodgesDropDowns .titleBox {
+.lodgeDropDowns .titleBox {
     width: 45%;
     min-width: 180px;
     margin-top: 0px;
 }
+
+.mainLodge {
+    font-size: 18px;
+}
+
+@media (max-width:768px) {
+    
+    .lodgeDropDowns .titleBox {
+        width: 100%;
+    }
+    .mainLodge {
+        font-size: 12px;
+    }
+}
+

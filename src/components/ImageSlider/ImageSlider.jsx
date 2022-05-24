@@ -1,6 +1,7 @@
 import "./ImageSlider.scss";
 import { useState } from "react";
 import { IoChevronBackSharp, IoChevronForwardSharp } from "react-icons/io5";
+import ImageCounter from "../ImageCounter/ImageCounter";
 
 const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -32,7 +33,13 @@ const ImageSlider = ({ slides }) => {
           </div>
         );
       })}
+       <ImageCounter index={current+1} text={length}/>
+      
     </section>
+   
+    
+    
+    
   );
 };
 

@@ -1,6 +1,7 @@
 @use '../../styles/variables.scss'as *;
 
 .slider {
+    position: relative;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -19,7 +20,7 @@
 
 .right-arrow {
     position: absolute;
-    right: 32px;
+    right: -6px;
     font-size: 5rem;
     color: $white;
     z-index: 10;
@@ -29,7 +30,7 @@
 
 .left-arrow {
     position: absolute;
-    left: 32px;
+    left: -6px;
     font-size: 5rem;
     color: $white;
     z-index: 10;
@@ -46,4 +47,10 @@
     opacity: 1;
     transition-duration: 1.9s;
 
+}
+
+@media (max-width:768px) {
+   .right-arrow, .left-arrow {
+       height: 0.5em;
+   }
 }

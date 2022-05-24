@@ -5,3 +5,9 @@
     padding-bottom: 0.5rem;
     font-size: 24px;
 }
+
+@media (max-width:768px) {
+    .lodgePageTitle {
+        font-size: 18px;
+    }
+}

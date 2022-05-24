@@ -26,10 +26,7 @@
 }
 
 @media (max-width:768px) {
-    .tagsList {
-       justify-content: center;
-       & li{
-           margin-top: 10px;
-       }
+    .tagsList li {      
+           margin-top: 10px;    
     }
 }
