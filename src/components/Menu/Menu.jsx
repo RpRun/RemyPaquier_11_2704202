@@ -7,10 +7,10 @@ const Menu = () => {
   return (
     <nav className="menu">
       <ul>
-        <li className={pathname === "/" && "underline"}>
+        <li className={pathname === "/" ? "underline" : undefined}>
           <Link to="/">Accueil</Link>
         </li>
-        <li className={pathname === "/About" && "underline"}>
+        <li className={pathname === "/About" ? "underline" : undefined}>
           <Link to="/About">A Propos</Link>
         </li>
       </ul>
