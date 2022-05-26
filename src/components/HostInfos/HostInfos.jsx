@@ -9,8 +9,8 @@ const HostInfos = ({ hostName, picture, rate }) => {
   return (
     <div className="hostInfos">
       <div className="hostProfile">
-          <div>{nameArray.map((name) => (
-              <p>{name}</p>
+          <div>{nameArray.map((name, index) => (
+              <p key={index}>{name}</p>
             ))}
           </div>
 

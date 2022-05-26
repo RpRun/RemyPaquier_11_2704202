@@ -9,7 +9,7 @@ const StarRating = ({ note }) => {
         index += 1;
 
         return (
-          <GrStar className={index <= note ? "starFilled" : "starEmpty"} />
+          <GrStar key={index} className={index <= note ? "starFilled" : "starEmpty"} />
         );
       })}
     </div>
