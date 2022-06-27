@@ -7,10 +7,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    & h1 {       
-        color: white;      
+
+    & h1 {
+        color: white;
         font-size: 48px;
-        
     }
 }
 
@@ -18,5 +18,5 @@
     .bannerMessage h1 {
         font-size: 24px;
         padding: 10px;
-}
+    }
 }

@@ -3,12 +3,6 @@ import "./LodgeListItem.scss";
 const LodgeListItem = ({
   title,
   cover,
-  pictures,
-  description,
-  host,
-  rating,
-  location,
-  equipments,
   tags,
 }) => {
   return (

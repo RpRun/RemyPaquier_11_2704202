@@ -40,17 +40,19 @@
 
 .slide {
     opacity: 0;
-    transition-duration: 1s ease;
+    transition-duration: 0.3s ease;
 }
 
 .slide.active {
     opacity: 1;
-    transition-duration: 1.9s;
+    transition-duration: 0.3s;
 
 }
 
 @media (max-width:768px) {
-   .right-arrow, .left-arrow {
-       height: 0.5em;
-   }
+
+    .right-arrow,
+    .left-arrow {
+        height: 0.5em;
+    }
 }

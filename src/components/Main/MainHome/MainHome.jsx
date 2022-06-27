@@ -1,5 +1,5 @@
 import LodgeList from "../../LodgeList/LodgeList";
-import "./MainHome.scss";
+
 
 const MainHome = () => {
   return (

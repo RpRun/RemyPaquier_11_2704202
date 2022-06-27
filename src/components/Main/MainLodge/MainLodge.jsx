@@ -1,21 +1,22 @@
-import { useParams } from "react-router-dom";
+import { useParams, Navigate } from "react-router-dom";
 import { LodgeListData } from "../../../datas/data";
 import ImageSlider from "../../ImageSlider/ImageSlider";
 import DropDown from "../../DropDown/DropDown";
 import TagsList from "../../TagsList/TagsList";
 import LodgePageTitle from "../../LodgePageTitle/LodgePageTitle";
 import HostInfos from "../../HostInfos/HostInfos";
-
 import "./MainLodge.scss";
+import { useState } from "react";
 
 const MainLodge = () => {
   const { id } = useParams();
-
-  const lodge = LodgeListData.find((Lodge) => Lodge.id === id);
+  const [lodge, setLodge] = useState(() => {
+    return LodgeListData.find((Lodge) => Lodge.id === id)
+  })
 
   return (
-    <main className="mainLodge">
-      <>
+    lodge
+    ? <main className="mainLodge">
         <ImageSlider slides={lodge.pictures} />
         <div className="practicalInformation">
           <div className="lodgeInfos">
@@ -36,8 +37,8 @@ const MainLodge = () => {
             <DropDown title="Equipements" text={lodge.equipments} />
           </ul>
         </div>
-      </>
-    </main>
+      </main>
+    : <Navigate replace to='/error-page' />
   );
 };
 

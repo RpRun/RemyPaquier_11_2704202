@@ -4,7 +4,6 @@ import "./HostInfos.scss";
 const HostInfos = ({ hostName, picture, rate }) => {
   const note = parseInt(rate);
   const nameArray = hostName.split(" ");
-  //array span
  
   return (
     <div className="hostInfos">
