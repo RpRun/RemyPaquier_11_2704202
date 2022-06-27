@@ -18,6 +18,26 @@ const ImageSlider = ({ slides }) => {
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
   }
+  if (slides.length === 1) {
+    return (
+      <section className="slider">
+     
+      {slides.map((slide, index) => {
+        return (
+          <div
+            className={index === current ? "slide active" : "slide"}
+            key={index}
+          >
+            {index === current && <img src={slide} alt={""} />}
+          </div>
+        );
+      })}
+       <ImageCounter index={current+1} text={length}/>
+      
+    </section>
+
+    )
+  }
 
   return (
     <section className="slider">
@@ -36,10 +56,7 @@ const ImageSlider = ({ slides }) => {
        <ImageCounter index={current+1} text={length}/>
       
     </section>
-   
-    
-    
-    
+       
   );
 };
 
