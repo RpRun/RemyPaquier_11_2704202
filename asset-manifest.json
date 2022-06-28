@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RemyPaquier_11_2704202/static/css/main.eb2e1015.css",
-    "main.js": "/RemyPaquier_11_2704202/static/js/main.0d132c0e.js",
+    "main.js": "/RemyPaquier_11_2704202/static/js/main.31b68a76.js",
     "static/media/aboutBanner.png": "/RemyPaquier_11_2704202/static/media/aboutBanner.6409af8db1576308fb2b.png",
     "static/media/bannerAccueil.png": "/RemyPaquier_11_2704202/static/media/bannerAccueil.ac3aa7396c2c7cd05e2e.png",
     "static/media/montserrat-all-400-normal.woff": "/RemyPaquier_11_2704202/static/media/montserrat-all-400-normal.aa917f2f47304e192c88.woff",
@@ -12,10 +12,10 @@
     "static/media/montserrat-vietnamese-400-normal.woff2": "/RemyPaquier_11_2704202/static/media/montserrat-vietnamese-400-normal.69611381dc5e4dd3b448.woff2",
     "index.html": "/RemyPaquier_11_2704202/index.html",
     "main.eb2e1015.css.map": "/RemyPaquier_11_2704202/static/css/main.eb2e1015.css.map",
-    "main.0d132c0e.js.map": "/RemyPaquier_11_2704202/static/js/main.0d132c0e.js.map"
+    "main.31b68a76.js.map": "/RemyPaquier_11_2704202/static/js/main.31b68a76.js.map"
   },
   "entrypoints": [
     "static/css/main.eb2e1015.css",
-    "static/js/main.0d132c0e.js"
+    "static/js/main.31b68a76.js"
   ]
 }
