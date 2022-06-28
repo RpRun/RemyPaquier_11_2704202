@@ -1,4 +1,4 @@
-import BannerMessage from "../BannerMessage/BannerMessage";
+// import BannerMessage from "../BannerMessage/BannerMessage";
 import "./Banner.scss";
 
 const Banner = ({ children }) => {
