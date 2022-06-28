@@ -2,7 +2,7 @@
   "name": "kasa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://RpRun.github.io/RemyPaquier_11_2704202/",
+  "homepage": ".",
   "dependencies": {
     "@fontsource/montserrat": "^4.5.10",
     "@testing-library/jest-dom": "^5.16.4",
