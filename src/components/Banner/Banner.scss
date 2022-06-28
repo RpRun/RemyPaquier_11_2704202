@@ -3,13 +3,22 @@
     border-radius: 10px;
     object-fit: cover;
     opacity: 0.8;
+    width: 100%;
 }
 
 .bannerBg {
     height: 223px;
-    margin: 1em auto;
+    margin: 10px;
     border-radius: 10px;
     position: relative;
     background-color: black;
 }
 
+@media (max-width:768px) {
+
+    .bannerBg,
+    .bannerBg img {
+        height: 111px;
+
+    }
+}

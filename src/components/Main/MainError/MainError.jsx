@@ -6,7 +6,8 @@ const MainError = () => {
   return (
     <main className="mainError">
       <ErrorMessage text="404" />
-      <p>Oups! La page que vous demandez n'existe pas</p>
+      <div><p>Oups! La page que vous demandez n'existe pas</p></div>
+      
 
       <BackHome text="Retourner sur la page d'accueil" />
     </main>
