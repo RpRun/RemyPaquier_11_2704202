@@ -3,7 +3,7 @@ import "./BackHome.scss";
 
 const BackHome = ({ text }) => {
   return (
-    <a className="backHome" href="/RemyPaquier_11_2704202/">
+    <a className="backHome" href="/RemyPaquier_11_27042022/">
       {text}
     </a>
   );

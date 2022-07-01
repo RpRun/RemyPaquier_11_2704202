@@ -7,10 +7,10 @@ import Lodge from "./views/Lodge/Lodge";
 const Router = () => {
   return (
     <Routes>   
-      <Route path="/RemyPaquier_11_2704202/" element={<Home />} />
-      <Route path="/RemyPaquier_11_2704202/About" element={<About />} />
-      <Route path="/RemyPaquier_11_2704202/:id" element={<Lodge />} />
-      <Route path="/RemyPaquier_11_2704202/*" element={ <Navigate replace to='/error-page' /> } />
+      <Route path="/RemyPaquier_11_27042022/" element={<Home />} />
+      <Route path="/RemyPaquier_11_27042022/About" element={<About />} />
+      <Route path="/RemyPaquier_11_27042022/:id" element={<Lodge />} />
+      <Route path="/RemyPaquier_11_27042022/*" element={ <Navigate replace to='/error-page' /> } />
       <Route path="/error-page" element={<Error />} />
     </Routes>
   );

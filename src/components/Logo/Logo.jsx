@@ -5,7 +5,7 @@ import "./Logo.scss";
 const Logo = () => {
   return (
     <div className="logo">
-      <Link to="/RemyPaquier_11_2704202/">
+      <Link to="/RemyPaquier_11_27042022/">
         <svg
           width="145"
           height="47"

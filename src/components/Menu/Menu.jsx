@@ -7,11 +7,11 @@ const Menu = () => {
   return (
     <nav className="menu">
       <ul>
-        <li className={pathname === "/RemyPaquier_11_2704202/" ? "underline" : undefined}>
-          <Link to="/RemyPaquier_11_2704202/">Accueil</Link>
+        <li className={pathname === "/RemyPaquier_11_27042022/" ? "underline" : undefined}>
+          <Link to="/RemyPaquier_11_27042022/">Accueil</Link>
         </li>
-        <li className={pathname === "/RemyPaquier_11_2704202/About" ? "underline" : undefined}>
-          <Link to="RemyPaquier_11_2704202/About">A Propos</Link>
+        <li className={pathname === "/RemyPaquier_11_27042022/About" ? "underline" : undefined}>
+          <Link to="RemyPaquier_11_27042022/About">A Propos</Link>
         </li>
       </ul>
     </nav>
